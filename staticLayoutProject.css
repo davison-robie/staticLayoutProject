@@ -1,0 +1,59 @@
+body {
+    background-image: url(https://www.hulu.com/static/hitch/s3/2020-06/Homepage_Masthead_Test_DESKTOP_3200x1320-v4c_6.16.20.jpg?t.h4WwAhD1rrl9t1M_SYrNCgeYS_ON48);
+    background-position: right top;
+    background-size: 1575px;
+}
+
+.masthead {
+    text-align: center;
+    font-family: 'Graphik', Helvetica, Helvetica, sans-serif;
+    margin-top: 115px;
+}
+
+.masthead h1{
+    color: #2DBD9D;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.masthead h2{
+    color: #ffffff;
+    font-weight: 550;
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 16px;
+    width: 570px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.masthead h3{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 21px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.freeTrial {
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #040505;
+    background: #fff;
+    height: 46px;
+    min-width: 136px;
+    padding: 0 32px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1px;
+}
