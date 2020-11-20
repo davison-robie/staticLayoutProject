@@ -75,6 +75,7 @@ body {
     margin-right: auto;
     align-self: center;
     margin-top: 16px;
+    margin-bottom: 50px;
 }
 
 /* MIDDLE RIBBON */
@@ -83,6 +84,11 @@ body {
     padding: 34px 40px;
     z-index: 2;
     background: linear-gradient(318.68deg, #0F495C 0%, #0D3640 49.72%, #08141F 100%);
+    font-family: 'Graphik', Helvetica, Helvetica, sans-serif
+}
+
+.bundleLogoContainer {
+    vertical-align: middle;
 }
 
 .ribbon h1 {
@@ -98,8 +104,14 @@ body {
 .ribbon h2 {
     display: inline;
     font-size: 16px;
+    font-weight: lighter;
     line-height: 24px;
     color: #fff;
+}
+
+.ribbonInfo {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bundleButtonContainer{
@@ -121,6 +133,7 @@ body {
     cursor: pointer;
 }
 
+/* LOWER LIBRARY PORTION*/
 .scrollDown {
     padding-top: 20px;
     z-index: 1;
@@ -130,7 +143,6 @@ body {
     padding: 50px 20px;
 }
 
-/* LOWER LIBRARY PORTION*/
 .scrollDown h1 {
     color: #2DBD9D;
     font-size: 12px;
@@ -158,22 +170,25 @@ body {
 }
 
 .library {
-    display: flex;
-    align-content: center;
+    display: grid;
+    column-gap: 15px;
+    row-gap: 20px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
 }
 
 .library h1 {
     margin-bottom: 10px;
     font-size: 16px;
     font-weight: 400;
-    line-height: 12px;
+    line-height: .5;
     color: #fff;
 }
 
 .library h2 {
     margin-bottom: 10px;
     font-size: 24px;
-    line-height: 16px;
+    line-height: .5;
     font-weight: bold;
     color: #fff;
 }
@@ -181,36 +196,83 @@ body {
 .tvShows {
     height: 555.61px;
     width: 363px;
-    background-image: url("https://www.hulu.com/static/hitch/s3/attachments/ckfefjkwmmpdz184asry4jtza-bobs-burgers-category-tile-294x450-2x.full.jpg");
+    position: relative;
     text-align: left;
     background-size: contain;
     z-index: 3;
     cursor: pointer;
-    margin-left: auto;
 }
 
 .tvShowsText {
-    position: relative;
-    top: 8px;
+    position: absolute;
+    top: 10px;
     left: 16px;
     z-index: 3;
+}
+
+.tvShows img {
+    opacity: .7;
 }
 
 .movies {
     height: 555.61px;
     width: 363px;
-    background-image: url("https://www.hulu.com/static/hitch/s3/attachments/ckfefo3s4mp0d197im33b8rlc-palm-springs-category-tile-v2-294x450-2x.full.jpg");
+    position: relative;
     text-align: left;
     background-size: contain;
     z-index: 1;
     cursor: pointer;
-    margin-left: 25px;
-    margin-right: auto;
 }
 
 .moviesText {
-    position: relative;
+    position: absolute;
     top: 8px;
     left: 16px;
     z-index: 3;
+}
+
+.movies img {
+    opacity: .7;
+}
+
+.originals {
+    height: 555.61px;
+    width: 363px;
+    position: relative;
+    text-align: left;
+    background-size: contain;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.originalsText {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    z-index: 3;
+}
+
+.originals img {
+    opacity: .7;
+}
+
+.premiums {
+    height: 555.61px;
+    width: 363px;
+    position: relative;
+    text-align: left;
+    background-size: contain;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.premiumsText {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    z-index: 3;
+}
+
+.premiums img {
+    opacity: .7;
 }
