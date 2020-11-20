@@ -2,12 +2,14 @@ body {
     background-image: url(https://www.hulu.com/static/hitch/s3/2020-06/Homepage_Masthead_Test_DESKTOP_3200x1320-v4c_6.16.20.jpg?t.h4WwAhD1rrl9t1M_SYrNCgeYS_ON48);
     background-position: right top;
     background-size: 1575px;
+    margin: 0;
 }
 
+/* "MASTHEAD" */
 .masthead {
     text-align: center;
     font-family: 'Graphik', Helvetica, Helvetica, sans-serif;
-    margin-top: 115px;
+    margin-top: 110px;
 }
 
 .masthead h1{
@@ -26,7 +28,7 @@ body {
     font-size: 22px;
     line-height: 30px;
     margin-top: 16px;
-    width: 570px;
+    max-width: 570px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -56,4 +58,159 @@ body {
     font-weight: 600;
     line-height: 14px;
     letter-spacing: 1px;
+}
+
+.freeTrial:hover {
+    opacity: 0.8;
+}
+
+.legal{
+    font-size: 10px;
+    color: #fff;
+    opacity: 0.6;
+    letter-spacing: .3px;
+    font-weight: normal;
+    line-height: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    margin-top: 16px;
+}
+
+/* MIDDLE RIBBON */
+.ribbon {
+    display: flex;
+    padding: 34px 40px;
+    z-index: 2;
+    background: linear-gradient(318.68deg, #0F495C 0%, #0D3640 49.72%, #08141F 100%);
+}
+
+.ribbon h1 {
+    color: #2DBD9D;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.ribbon h2 {
+    display: inline;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.bundleButtonContainer{
+    color: white;
+    position: relative;
+    margin-left: auto;
+    justify-content: center;
+}
+
+.bundleButton {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.scrollDown {
+    padding-top: 20px;
+    z-index: 1;
+    background-color: black;
+    font-family: 'Graphik', Helvetica, Helvetica, sans-serif;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* LOWER LIBRARY PORTION*/
+.scrollDown h1 {
+    color: #2DBD9D;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 8px;
+}
+
+.scrollDown h2 {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    line-height: 70px;
+    margin-bottom: 16px;
+}
+
+.scrollDown h3 {
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 100;
+    margin-bottom: 16px;
+}
+
+.library {
+    display: flex;
+    align-content: center;
+}
+
+.library h1 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #fff;
+}
+
+.library h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.tvShows {
+    height: 555.61px;
+    width: 363px;
+    background-image: url("https://www.hulu.com/static/hitch/s3/attachments/ckfefjkwmmpdz184asry4jtza-bobs-burgers-category-tile-294x450-2x.full.jpg");
+    text-align: left;
+    background-size: contain;
+    z-index: 3;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.tvShowsText {
+    position: relative;
+    top: 8px;
+    left: 16px;
+    z-index: 3;
+}
+
+.movies {
+    height: 555.61px;
+    width: 363px;
+    background-image: url("https://www.hulu.com/static/hitch/s3/attachments/ckfefo3s4mp0d197im33b8rlc-palm-springs-category-tile-v2-294x450-2x.full.jpg");
+    text-align: left;
+    background-size: contain;
+    z-index: 1;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-right: auto;
+}
+
+.moviesText {
+    position: relative;
+    top: 8px;
+    left: 16px;
+    z-index: 3;
 }
