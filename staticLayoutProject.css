@@ -9,7 +9,25 @@ body {
 .masthead {
     text-align: center;
     font-family: 'Graphik', Helvetica, Helvetica, sans-serif;
-    margin-top: 110px;
+    margin-top: 140px;
+}
+
+.loginButton {
+    position: absolute;
+    top: 5px;
+    right: 40px;
+    z-index: 3;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 23px 0 17px;
+    margin: 4px 0px;
+    border: none;
+    display: block;
+    background-color: transparent;
 }
 
 .masthead h1{
@@ -18,17 +36,18 @@ body {
     font-weight: 600;
     letter-spacing: 0.5px;
     line-height: 13px;
-    padding-bottom: 8px;
+    padding-bottom: 15px;
     text-transform: uppercase;
 }
 
 .masthead h2{
     color: #ffffff;
-    font-weight: 550;
+    font-weight: 500;
     font-size: 22px;
+    letter-spacing: 1px;
     line-height: 30px;
-    margin-top: 16px;
-    max-width: 570px;
+    margin-top: 12px;
+    max-width: 670px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -38,9 +57,11 @@ body {
     font-size: 14px;
     font-weight: lighter;
     line-height: 21px;
+    letter-spacing: 1px;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 45px;
 }
 
 .freeTrial {
@@ -52,10 +73,11 @@ body {
     background: #fff;
     height: 46px;
     min-width: 136px;
-    padding: 0 32px;
+    padding: 20px 32px 20px 32px;
     border: none;
     font-size: 14px;
     font-weight: 600;
+    text-decoration: none;
     line-height: 14px;
     letter-spacing: 1px;
 }
@@ -74,8 +96,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     align-self: center;
-    margin-top: 16px;
-    margin-bottom: 50px;
+    margin-top: 35px;
+    margin-bottom: 57.5px;
 }
 
 /* MIDDLE RIBBON */
@@ -87,8 +109,9 @@ body {
     font-family: 'Graphik', Helvetica, Helvetica, sans-serif
 }
 
-.bundleLogoContainer {
+.ribbon img {
     vertical-align: middle;
+    margin-top: 26px;
 }
 
 .ribbon h1 {
@@ -102,23 +125,32 @@ body {
 }
 
 .ribbon h2 {
-    display: inline;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: lighter;
     line-height: 24px;
     color: #fff;
 }
+
+.ribbon a:link, .ribbon 
 
 .ribbonInfo {
     margin-left: auto;
     margin-right: auto;
 }
 
+.moreDetails {
+    color: white;
+    font-size: small;
+    opacity: .8;
+}
+
 .bundleButtonContainer{
     color: white;
     position: relative;
     margin-left: auto;
-    justify-content: center;
+    margin-top: 46px;
+    text-align: center;
+    min-width: 169px;
 }
 
 .bundleButton {
@@ -126,11 +158,21 @@ body {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
+    text-decoration: none;
     background-color: transparent;
     border: 2px solid white;
     border-radius: 5px;
-    padding: 12px;
+    padding: 22px 32px;
+    margin-bottom: 10px;
     cursor: pointer;
+}
+
+.termsApply {
+    color: white;
+    font-size: small;
+    opacity: .8;
+    line-height: 400%;
+
 }
 
 /* LOWER LIBRARY PORTION*/
@@ -143,21 +185,27 @@ body {
     padding: 50px 20px;
 }
 
+.scrollDownContainer{
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .scrollDown h1 {
     color: #2DBD9D;
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 0.5px;
-    line-height: 13px;
-    padding-bottom: 8px;
+    margin-top: 25px;
+    margin-bottom: -25px;
 }
 
 .scrollDown h2 {
     color: #fff;
-    font-size: 64px;
+    font-size: 48px;
+    line-height: 53px;
     font-weight: 800;
     letter-spacing: -0.5px;
-    line-height: 70px;
     margin-bottom: 16px;
 }
 
@@ -167,14 +215,18 @@ body {
     line-height: 24px;
     font-weight: 100;
     margin-bottom: 16px;
+    max-width: 675px;
 }
 
 .library {
     display: grid;
-    column-gap: 15px;
+    column-gap: 20 px;
     row-gap: 20px;
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 765px;
 }
 
 .library h1 {
@@ -206,7 +258,7 @@ body {
 .tvShowsText {
     position: absolute;
     top: 10px;
-    left: 16px;
+    left: 18px;
     z-index: 3;
 }
 
@@ -227,7 +279,7 @@ body {
 .moviesText {
     position: absolute;
     top: 8px;
-    left: 16px;
+    left: 18px;
     z-index: 3;
 }
 
@@ -248,7 +300,7 @@ body {
 .originalsText {
     position: absolute;
     top: 8px;
-    left: 16px;
+    left: 18px;
     z-index: 3;
 }
 
@@ -269,7 +321,7 @@ body {
 .premiumsText {
     position: absolute;
     top: 8px;
-    left: 16px;
+    left: 18px;
     z-index: 3;
 }
 
