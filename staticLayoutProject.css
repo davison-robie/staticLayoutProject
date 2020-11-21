@@ -109,6 +109,10 @@ body {
     font-family: 'Graphik', Helvetica, Helvetica, sans-serif
 }
 
+.bundleLogoContainer {
+    margin-right: 40px;
+}
+
 .ribbon img {
     vertical-align: middle;
     margin-top: 26px;
@@ -127,21 +131,20 @@ body {
 .ribbon h2 {
     font-size: 24px;
     font-weight: lighter;
-    line-height: 24px;
+    line-height: 30px;
     color: #fff;
 }
-
-.ribbon a:link, .ribbon 
 
 .ribbonInfo {
     margin-left: auto;
     margin-right: auto;
+    max-width: 500;
 }
 
 .moreDetails {
     color: white;
-    font-size: small;
-    opacity: .8;
+    font-size: 14px;
+    opacity: .7;
 }
 
 .bundleButtonContainer{
@@ -149,6 +152,7 @@ body {
     position: relative;
     margin-left: auto;
     margin-top: 46px;
+    border-left: 25px solid transparent;
     text-align: center;
     min-width: 169px;
 }
@@ -169,10 +173,9 @@ body {
 
 .termsApply {
     color: white;
-    font-size: small;
-    opacity: .8;
+    font-size: 10px;
+    opacity: .7;
     line-height: 400%;
-
 }
 
 /* LOWER LIBRARY PORTION*/
@@ -206,7 +209,7 @@ body {
     line-height: 53px;
     font-weight: 800;
     letter-spacing: -0.5px;
-    margin-bottom: 16px;
+    margin-bottom: 36px;
 }
 
 .scrollDown h3 {
@@ -214,7 +217,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     font-weight: 100;
-    margin-bottom: 16px;
+    margin-bottom: 50px;
     max-width: 675px;
 }
 
@@ -238,7 +241,7 @@ body {
 }
 
 .library h2 {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     font-size: 24px;
     line-height: .5;
     font-weight: bold;
@@ -326,5 +329,13 @@ body {
 }
 
 .premiums img {
+    opacity: .7;
+}
+
+.library p {
+    color: white;
+    font-size: 10px;
+    position: absolute;
+
     opacity: .7;
 }
